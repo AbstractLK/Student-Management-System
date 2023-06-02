@@ -1,6 +1,6 @@
 <script>
   export default {
-    name:"Footer",
+    name:"MyFooter",
     data: () => ({
       icons: [
         'mdi-facebook',
@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <v-footer class="bg-teal d-flex flex-column justify-end text-center">
+  <v-footer class="bg-teal-lighten-1 d-flex flex-column justify-end text-center">
     <div >
 
       <v-btn
