@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <h1 class="ml-5">{{title}}</h1>
+  <h1 class="ma-5">{{title}}</h1>
   <h2>{{subtitle}}</h2>
 </template>
 
