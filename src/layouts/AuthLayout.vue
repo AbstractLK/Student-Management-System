@@ -1,11 +1,17 @@
 <script>
 
+import MyFooter from "@/layouts/default/MyFooter.vue";
+
+export default {
+  components: {MyFooter}
+}
 </script>
 
 <template>
   <v-layout>
     <v-main>
-      <router-view />
+      <router-view  style="height: 91%"/>
+      <MyFooter/>
     </v-main>
   </v-layout>
 </template>
