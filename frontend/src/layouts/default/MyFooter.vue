@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <v-footer class="bg-teal-lighten-1 d-flex flex-column justify-end text-center">
+  <v-footer class="bg-blue-grey-lighten-3 d-flex flex-column justify-end text-center">
     <div >
 
       <v-btn
@@ -26,7 +26,7 @@
       ></v-btn>
     </div>
 
-    <div class="px-4 py-2 bg-black text-center w-100">
+    <div class="px-4 py-2 bg-blue-grey text-center w-100">
       {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
     </div>
   </v-footer>

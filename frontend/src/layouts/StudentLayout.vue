@@ -25,10 +25,11 @@
           <v-list-item prepend-icon="mdi-folder" title="Classes" value="Classes" to="/student/classes"></v-list-item>
           <v-list-item prepend-icon="mdi-account-multiple" title="Shared with me" value="shared"></v-list-item>
           <v-list-item prepend-icon="mdi-star" title="Starred" value="starred"></v-list-item>
+          <v-list-item prepend-icon="mdi mdi-logout" title="Logout" value="Logout" to="/auth/"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 
-      <v-main style="height: 250px">
+      <v-main >
         <router-view/>
       </v-main>
     </v-layout>

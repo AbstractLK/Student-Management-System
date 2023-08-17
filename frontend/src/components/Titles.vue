@@ -10,7 +10,7 @@ export default {
 
 <template>
   <h1 class="ma-5">{{title}}</h1>
-  <h2>{{subtitle}}</h2>
+  <h2 class="mx-5">{{subtitle}}</h2>
 </template>
 
 <style scoped>

@@ -9,9 +9,9 @@ export default {
 
 <template>
   <v-layout>
-    <v-main>
-      <router-view  style="height: 91%"/>
-      <MyFooter/>
+    <v-main >
+      <router-view style="height: 75vh" />
+      <MyFooter />
     </v-main>
   </v-layout>
 </template>
