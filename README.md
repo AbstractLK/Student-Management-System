@@ -9,4 +9,5 @@ npm run dev
 
 # install dependencies
 npm install express mongoose nodemon dotenv
+npm install bcryptjs cors jsonwebtoken
 ```
